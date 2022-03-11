@@ -18,4 +18,7 @@ offset), svgcolor is a color specification in svg format, e.g., rgb(255,255,00),
 and the comment is a human-readable comment.
 
 # Notes for vertical plotter
-* commands of the form: python gcodeplot.py --area=0,0,300,300 --lift-delta-z=-4 -work-z=0 images\calibrate.svg > 300mmcalibrate.gcode 
+* commands of the form: 
+'''python gcodeplot.py --area=0,0,150,150 --lift-delta-z=4 --work-z=1 --align-x=c --align-y=c images\calibrate10_10.svg > 100mmcalibrate.gcode '''
+* Also, the area should match your inkscape document (which should be as small as possible)
+* 
