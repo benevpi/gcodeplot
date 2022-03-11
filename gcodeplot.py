@@ -54,9 +54,11 @@ class Plotter(object):
         self.comment = comment
 
     def inRange(self, point):
-        for i in range(2):
-            if point[i] < self.xyMin[i]-.001 or point[i] > self.xyMax[i]+.001:
-                return False
+        ''' Let's not worry about this.
+            for i in range(2):
+                if point[i] < self.xyMin[i]-.001 or point[i] > self.xyMax[i]+.001:
+                    return False
+        '''
         return True
 
     @property
