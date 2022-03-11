@@ -16,3 +16,6 @@ default pen position (note: gcodeplot.py will correct the offset and will NOT ch
 drawing edges--it is your responsibility to make sure your tool doesn't crash into anything due to 
 offset), svgcolor is a color specification in svg format, e.g., rgb(255,255,00), #FFFF00 or yellow, 
 and the comment is a human-readable comment.
+
+# Notes for vertical plotter
+* commands of the form: python gcodeplot.py --area=0,0,300,300 --lift-delta-z=-4 -work-z=0 images\calibrate.svg > 300mmcalibrate.gcode 
