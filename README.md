@@ -24,3 +24,6 @@ and the comment is a human-readable comment.
 * Can offset the image on the inkscape doc in the X direction to make 0 in the X axis in the middle
     * Can probably hack the gcodeplot to add this offset (I've had to disable the bounds checking as this didn't like it.
 * Do you always want to delete the move to 0,0 at the start?
+    * Probably best to just remove this from the software
+* Get better results further down the plot. See how far down this goes.
+* Still not getting properly square plots. Not too sure why. Double check things like steps per turn. 
