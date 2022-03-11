@@ -21,4 +21,4 @@ and the comment is a human-readable comment.
 * commands of the form: 
 '''python gcodeplot.py --area=0,0,150,150 --lift-delta-z=4 --work-z=1 --align-x=c --align-y=c images\calibrate10_10.svg > 100mmcalibrate.gcode '''
 * Also, the area should match your inkscape document (which should be as small as possible)
-* 
+* Do you always want to delete the move to 0,0 at the start?
