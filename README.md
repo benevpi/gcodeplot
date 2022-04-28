@@ -19,7 +19,7 @@ and the comment is a human-readable comment.
 
 # Notes for vertical plotter
 * commands of the form: 
-'''python gcodeplot.py --area=0,0,150,150 --lift-delta-z=4 --work-z=1 --align-x=c --align-y=c images\calibrate10_10.svg > 100mmcalibrate.gcode '''
+'''python gcodeplot.py --area=0,0,150,150 --lift-delta-z=4 --work-z=1 --align-y=c images\calibrate10_10.svg > 100mmcalibrate.gcode '''
 * Also, the area should match your inkscape document (which should be as small as possible)
 * Can offset the image on the inkscape doc in the X direction to make 0 in the X axis in the middle
     * Can probably hack the gcodeplot to add this offset (I've had to disable the bounds checking as this didn't like it.
